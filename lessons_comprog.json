@@ -1,28 +1,144 @@
 {
-  "Name": "Computer Programming 3",
+  "Name": "Computer Programming",
   "Lessons": [
     {
-      "Title": "Introduction to Programming",
+      "Title": "Methods in Programming",
       "Topics": [
-        "What is Programming?",
-        "History of Programming Languages",
-        "Basic Programming Concepts"
+        {
+          "Title": "Defining a Method",
+          "Content": "A method is a code block that contains a series of statements. A program causes the statements to be executed by calling the method and specifying any required method arguments. In C#, a method is defined with the `method` keyword."
+        },
+        {
+          "Title": "Purpose of Methods",
+          "Content": "Methods are used in programming to organize code into reusable blocks. They help to divide complex problems into smaller, more manageable tasks, making the code more modular, easier to understand, and maintain."
+        },
+        {
+          "Title": "Calling a Method in C#",
+          "Content": "To call a method named `display` in C#, you simply use `display();`. This executes the code within the method."
+        },
+        {
+          "Title": "Defining a Method that Returns a Value",
+          "Content": "In C#, a method that returns a value is defined using the return type before the method name. For example, `int CalculateSum() {}` defines a method that returns an integer value."
+        },
+        {
+          "Title": "Parameters in Methods",
+          "Content": "A parameter is a variable in the method definition. Parameters act as placeholders for the values that are passed to the method. For example, in `void PrintMessage(string message)`, `message` is a parameter."
+        },
+        {
+          "Title": "Arguments in Programming",
+          "Content": "An argument is a value that is passed to a method when it is called. For example, in `PrintMessage(\"Hello World\")`, the string \"Hello World\" is an argument."
+        }
       ]
     },
     {
-      "Title": "Data Structures",
+      "Title": "Object-Oriented Programming (OOP)",
       "Topics": [
-        "Arrays",
-        "Linked Lists",
-        "Stacks and Queues"
+        {
+          "Title": "OOP Definition",
+          "Content": "OOP stands for Object-Oriented Programming, a programming paradigm based on the concept of objects, which can contain data and methods."
+        },
+        {
+          "Title": "Advantages of OOP",
+          "Content": "One advantage of OOP is that it promotes code reusability through inheritance and polymorphism, leading to more efficient and organized code management."
+        },
+        {
+          "Title": "Defining a Class in OOP",
+          "Content": "A class in OOP is a blueprint for creating objects. It defines properties and methods that the created objects will have. For example, `public class Car { }` defines a class named Car."
+        },
+        {
+          "Title": "Creating an Object in C#",
+          "Content": "In C#, you create an object from a class using the `new` keyword. For example, `Car myCar = new Car();` creates an instance of the Car class."
+        },
+        {
+          "Title": "Inheritance in OOP",
+          "Content": "Inheritance is a feature of OOP that allows a class to inherit properties and methods from another class. This promotes code reuse and hierarchical class organization."
+        },
+        {
+          "Title": "Inheritance Keyword in C#",
+          "Content": "In C#, the `:` symbol is used to denote inheritance. For example, `public class Sedan : Car { }` means Sedan inherits from Car."
+        },
+        {
+          "Title": "Access Modifiers in C#",
+          "Content": "The `private` access modifier hides a class's members from other classes. Members declared as private can only be accessed within the same class."
+        },
+        {
+          "Title": "Encapsulation in OOP",
+          "Content": "Encapsulation is the OOP principle of wrapping data (variables) and methods (functions) together as a single unit. It restricts direct access to some of an object's components, which is a means of preventing accidental interference and misuse of the data."
+        },
+        {
+          "Title": "Polymorphism in Programming",
+          "Content": "Polymorphism is an OOP principle that allows methods to do different things based on the object it is acting upon. It enables a single interface to represent different underlying forms (data types)."
+        },
+        {
+          "Title": "Types of Polymorphism in C#",
+          "Content": "The two types of polymorphism in C# are compile-time polymorphism (method overloading) and runtime polymorphism (method overriding)."
+        },
+        {
+          "Title": "Method Overloading",
+          "Content": "Method overloading is a feature that allows a class to have more than one method with the same name, as long as their parameter lists are different. For example, `void Display(int i)` and `void Display(double d)` are overloaded methods."
+        },
+        {
+          "Title": "Method Overriding",
+          "Content": "Method overriding is a feature that allows a subclass to provide a specific implementation of a method that is already defined in its superclass. The `override` keyword is used in C# to override a base class method."
+        },
+        {
+          "Title": "Keyword for Method Overriding",
+          "Content": "The `override` keyword allows a method to be overridden in a derived class. For example, `public override void Display()` in the derived class overrides the `Display` method in the base class."
+        }
       ]
     },
     {
-      "Title": "Object-Oriented Programming",
+      "Title": "Advanced OOP Concepts",
       "Topics": [
-        "Classes and Objects",
-        "Inheritance",
-        "Polymorphism"
+        {
+          "Title": "Abstraction in Programming",
+          "Content": "Abstraction is the OOP principle that focuses on hiding the complexity of a system by exposing only the essential features. It helps in reducing programming complexity and effort."
+        },
+        {
+          "Title": "Achieving Abstraction in C#",
+          "Content": "Abstraction in C# is achieved using abstract classes and interfaces. Abstract classes can contain abstract methods, while interfaces can only contain method signatures."
+        },
+        {
+          "Title": "Abstract Class",
+          "Content": "An abstract class cannot be instantiated and is designed to be subclassed. It can contain abstract methods that must be implemented in derived classes. For example, `public abstract class Animal { public abstract void MakeSound(); }`."
+        },
+        {
+          "Title": "Interface",
+          "Content": "An interface defines a contract that implementing classes must follow. It can contain method signatures without implementations. For example, `public interface IAnimal { void MakeSound(); }`."
+        },
+        {
+          "Title": "Default Access Level for Interface Members",
+          "Content": "The default access level for members of an interface is `public`. Interface members are always public because they define a contract for implementing classes."
+        },
+        {
+          "Title": "Purpose of Encapsulation",
+          "Content": "The purpose of encapsulation is to protect an object's state by preventing unauthorized access and modification. It helps in maintaining the integrity of the object's data."
+        }
+      ]
+    },
+    {
+      "Title": "Properties in C#",
+      "Topics": [
+        {
+          "Title": "Read-Only Property",
+          "Content": "A read-only property in C# is a property that only has a `get` accessor. It can be read but not modified. For example, `public int Age { get; }`."
+        },
+        {
+          "Title": "Write-Only Property",
+          "Content": "A write-only property in C# is a property that only has a `set` accessor. It can be modified but not read. For example, `public int Age { set; }`."
+        },
+        {
+          "Title": "Difference Between Abstract Class and Interface",
+          "Content": "An abstract class can have implementations for some of its members, but an interface cannot. An abstract class can have fields and constructors, while an interface cannot. A class can inherit multiple interfaces but only one abstract class."
+        },
+        {
+          "Title": "Role of `set` Accessor",
+          "Content": "The `set` accessor in a property is used to assign a value to the property. It defines the actions to be performed when the property is assigned a value. For example, `public int Age { set { age = value; } }`."
+        },
+        {
+          "Title": "Role of `get` Accessor",
+          "Content": "The `get` accessor in a property is used to return the property value. It defines the actions to be performed when the property is read. For example, `public int Age { get { return age; } }`."
+        }
       ]
     }
   ]

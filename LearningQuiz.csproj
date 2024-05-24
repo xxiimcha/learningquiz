@@ -136,6 +136,12 @@
     <None Include="lessons_comprog.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="lessons_granby.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="lessons_itf.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="lessons_nstp.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

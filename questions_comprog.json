@@ -1,0 +1,155 @@
+{
+  "Name": "Computer Programming 3",
+  "Questions": [
+    {
+      "Text": "Define a method.",
+      "Options": [ "Code block", "Function", "Procedure", "Routine" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Why are methods used in programming?",
+      "Options": [ "Organize code", "Reuse code", "Increase complexity", "Slow down execution" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "How do you call a method named `display` in C#?",
+      "Options": [ "call display()", "display;", "display();", "execute display()" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "Which keyword is used to define a method that returns a value?",
+      "Options": [ "void", "return", "Primitive type", "func" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "What is a parameter in the context of methods?",
+      "Options": [ "Method variable", "Local variable", "Global variable", "Instance variable" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "What is an argument in programming?",
+      "Options": [ "Return value", "Passed value", "Method signature", "Method name" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "What does OOP stand for?",
+      "Options": [ "Object-Oriented Programming", "Object Operations Programming", "Ordered Object Programming", "Object Oriented Procedures" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "List one advantage of OOP.",
+      "Options": [ "Complexity", "Clear structure", "High memory usage", "Slower execution" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "Define a class in OOP.",
+      "Options": [ "Object blueprint", "Data type", "Function", "Variable" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "How do you create an object in C#?",
+      "Options": [ "create Object", "new Object()", "new ClassName();", "Object ClassName = new ClassName();" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "What is inheritance in OOP?",
+      "Options": [ "Inherits attributes", "Copies methods", "Duplicates objects", "Overrides methods" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Which keyword is used to perform inheritance in C#?",
+      "Options": [ "extends", "inherits", ":", "::" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "Which access modifier hides a class's members from other classes?",
+      "Options": [ "public", "protected", "private", "internal" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "Define encapsulation in OOP.",
+      "Options": [ "Data wrapping", "Code reuse", "Inheritance", "Polymorphism" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "What is polymorphism in programming?",
+      "Options": [ "Many forms", "Single form", "Inheritance", "Encapsulation" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Name the two types of polymorphism in C#.",
+      "Options": [ "Compile-time, runtime", "Static, dynamic", "Early, late", "Immediate, deferred" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Define method overloading.",
+      "Options": [ "Redefine method", "Same name", "Different parameters", "Same return type" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "Define method overriding.",
+      "Options": [ "Redefine method", "Same name", "Different parameters", "Same return type" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Which keyword allows a method to be overridden in a derived class?",
+      "Options": [ "override", "virtual", "abstract", "static" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "Define abstraction in programming.",
+      "Options": [ "Essential features", "Code reuse", "Data hiding", "Class inheritance" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "How is abstraction achieved in C#?",
+      "Options": [ "Interfaces", "Abstract classes", "Encapsulation", "Polymorphism" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "Define an abstract class.",
+      "Options": [ "Cannot instantiate", "Has only abstract methods", "Must be inherited", "Is sealed" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Define an interface.",
+      "Options": [ "Abstract class", "Class implementation", "Has methods only", "Cannot instantiate" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "What is the default access level for members of an interface?",
+      "Options": [ "public", "private", "protected", "internal" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "What is the purpose of encapsulation?",
+      "Options": [ "Hide data", "Reuse code", "Increase complexity", "Improve performance" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "What is a read-only property in C#?",
+      "Options": [ "get accessor", "set accessor", "private accessor", "internal accessor" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "What is a write-only property in C#?",
+      "Options": [ "get accessor", "set accessor", "private accessor", "internal accessor" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "What is the difference between an abstract class and an interface?",
+      "Options": [ "Method content", "Class inheritance", "Instance creation", "Static methods" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "What is the role of the `set` accessor in C# properties?",
+      "Options": [ "Retrieves value", "Assigns value", "Hides value", "Displays value" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "What is the role of the `get` accessor in C# properties?",
+      "Options": [ "Retrieves value", "Assigns value", "Hides value", "Displays value" ],
+      "CorrectOptions": [ 0 ]
+    }
+  ]
+}

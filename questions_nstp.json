@@ -1,0 +1,155 @@
+{
+  "Name": "NSTP",
+  "Questions": [
+    {
+      "Text": "What are two causes of heat exhaustion?",
+      "Options": [ "Dehydration", "High temperature", "Humidity", "Low temperature" ],
+      "CorrectOptions": [ 1, 2 ]
+    },
+    {
+      "Text": "What should you do if someone shows signs of heat stroke?",
+      "Options": [ "Emergency treatment", "Ignore it", "Give water", "Move to shade" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "List three symptoms of heat exhaustion.",
+      "Options": [ "Dizziness", "Chills", "Fatigue", "Heavy sweating" ],
+      "CorrectOptions": [ 0, 2, 3 ]
+    },
+    {
+      "Text": "Name two first aid steps for heat stroke.",
+      "Options": [ "Cool down", "Lay down", "Call 911", "Give aspirin" ],
+      "CorrectOptions": [ 0, 2 ]
+    },
+    {
+      "Text": "What are two common causes of fires?",
+      "Options": [ "Electrical fires", "Smoking materials", "Water leakage", "Chemical reactions" ],
+      "CorrectOptions": [ 0, 1 ]
+    },
+    {
+      "Text": "How can overloaded electrical outlets lead to fires?",
+      "Options": [ "Overloaded circuits", "Short circuits", "High voltage", "Low voltage" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "What is a fire safety measure for space heaters?",
+      "Options": [ "Not unattended", "Place on carpet", "Keep near curtains", "Use extension cords" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Why should flammable liquids be stored properly?",
+      "Options": [ "Easy access", "Smell control", "Save space", "Prevent combustion" ],
+      "CorrectOptions": [ 3 ]
+    },
+    {
+      "Text": "What should you do if you observe a fire hazard?",
+      "Options": [ "Move away", "Report supervisor", "Ignore it", "Take a photo" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "Why is housekeeping important for fire prevention?",
+      "Options": [ "Clear exits", "Reduce workload", "Save time", "Improve appearance" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "How should sprinkler heads be kept clear?",
+      "Options": [ "18-inch space", "Covered", "Painted", "Blocked" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Where should waste materials never be piled?",
+      "Options": [ "Corridors", "Stairwells", "Storage rooms", "Workstations" ],
+      "CorrectOptions": [ 0, 1 ]
+    },
+    {
+      "Text": "When should fire doors be closed?",
+      "Options": [ "When leaving", "During fire drills", "During holidays", "Always closed" ],
+      "CorrectOptions": [ 3 ]
+    },
+    {
+      "Text": "Why should multi-outlet taps be avoided?",
+      "Options": [ "Overloaded circuits", "Cost", "Convenience", "Space saving" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "What is a safe alternative to extension cords?",
+      "Options": [ "Multiple plugs", "Adapter", "Longer cables", "Surge protector" ],
+      "CorrectOptions": [ 3 ]
+    },
+    {
+      "Text": "What should you check regularly on electrical equipment?",
+      "Options": [ "Inspect wiring", "Oil parts", "Check screws", "Clean exterior" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Name a precaution for using electrical appliances.",
+      "Options": [ "Use near water", "Cover with cloth", "Keep on always", "Unplug after use" ],
+      "CorrectOptions": [ 3 ]
+    },
+    {
+      "Text": "What is the function of a smoke detector?",
+      "Options": [ "Detect smoke", "Sound alarm", "Detect heat", "Measure temperature" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "How do heat detectors work?",
+      "Options": [ "Smoke detection", "High temperature", "Gas detection", "Sound detection" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "What triggers sprinklers in case of fire?",
+      "Options": [ "Manual activation", "Sound alarm", "Heat activation", "Smoke detection" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "Why plan two evacuation routes?",
+      "Options": [ "Alternate exits", "Save time", "Reduce confusion", "Convenience" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Name a reason to avoid elevators during a fire.",
+      "Options": [ "Power loss", "Faster escape", "Save energy", "Convenience" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Where are fire alarm pull stations usually located?",
+      "Options": [ "By exits", "In offices", "Near windows", "In kitchens" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "What should you do before using a fire extinguisher?",
+      "Options": [ "Identify safe path", "Shake it", "Cover nose", "Remove cap" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "What does the P in P.A.S.S. stand for?",
+      "Options": [ "Press handle", "Point nozzle", "Pull pin", "Pump extinguisher" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "What does the A in P.A.S.S. stand for?",
+      "Options": [ "Arrange equipment", "Aim low", "Apply pressure", "Activate alarm" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "What does the S in P.A.S.S. stand for?",
+      "Options": [ "Sound alarm", "Spray area", "Sweep base", "Squeeze handle" ],
+      "CorrectOptions": [ 3 ]
+    },
+    {
+      "Text": "What does the second S in P.A.S.S. stand for?",
+      "Options": [ "Sweep base", "Secure area", "Stay low", "Stop fire" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "What should you do if the fire re-ignites after using an extinguisher?",
+      "Options": [ "Repeat steps", "Call for help", "Use water", "Leave area" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "When should you evacuate immediately during a fire?",
+      "Options": [ "Smoke present", "Alarm sounds", "Fire visible", "Any doubt" ],
+      "CorrectOptions": [ 3 ]
+    }
+  ]
+}

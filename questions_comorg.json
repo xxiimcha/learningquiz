@@ -1,0 +1,155 @@
+{
+  "Name": "Digital Logic and Computer Architecture",
+  "Questions": [
+    {
+      "Text": "The basic building blocks of digital circuits that perform logical operations.",
+      "Options": [ "Logic Gates", "Transistors", "Flip-Flops", "Multiplexers" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "The simplest form of memory in digital circuits that can store a single bit.",
+      "Options": [ "Register", "Flip-Flops", "Cache", "RAM" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "The set of instructions that define the interface between hardware and software.",
+      "Options": [ "Operating System", "Instruction Set Architecture (ISA)", "Machine Code", "Firmware" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "A type of circuit where the output depends only on the current input values.",
+      "Options": [ "Sequential Circuit", "Combinational Circuit", "Analog Circuit", "Digital Circuit" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "The process of retrieving the next instruction from memory during instruction execution.",
+      "Options": [ "Decode", "Fetch", "Execute", "Store" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "Instructions that move data between memory and registers.",
+      "Options": [ "Control Instructions", "Data Transfer Instructions", "Arithmetic Instructions", "Logical Instructions" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "The addressing mode where the operand value is specified within the instruction itself.",
+      "Options": [ "Direct Addressing Mode", "Indirect Addressing Mode", "Immediate Addressing Mode", "Register Addressing Mode" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "The register that stores the memory address of the next instruction to be executed.",
+      "Options": [ "Instruction Register (IR)", "Memory Address Register (MAR)", "Program Counter (PC)", "Stack Pointer (SP)" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "The type of instruction set that focuses on simple instructions, each performing a single operation.",
+      "Options": [ "Complex Instruction Set Computing (CISC)", "Reduced Instruction Set Computing (RISC)", "Very Long Instruction Word (VLIW)", "Explicitly Parallel Instruction Computing (EPIC)" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "The mathematical system used to analyze and simplify digital logic circuits.",
+      "Options": [ "Binary System", "Boolean Algebra", "Decimal System", "Hexadecimal System" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "The type of circuits that have memory elements to store state information.",
+      "Options": [ "Combinational Circuits", "Analog Circuits", "Sequential Circuits", "Digital Circuits" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "The level of memory that acts as a buffer between the CPU and main memory.",
+      "Options": [ "Register", "Cache Memory", "RAM", "ROM" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "The memory management technique that simulates additional RAM using a portion of the hard disk.",
+      "Options": [ "Cache Memory", "Virtual Memory", "Flash Memory", "Physical Memory" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "The type of data that represents whole numbers.",
+      "Options": [ "Floating-Point Data Type", "Character Data Type", "Integer Data Type", "String Data Type" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "The process of interpreting an instruction to determine the operation to be performed.",
+      "Options": [ "Fetch", "Decode", "Execute", "Store" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "The type of register used for storing data and intermediate results during computation.",
+      "Options": [ "Instruction Register", "Memory Data Register", "Program Counter", "General-Purpose Registers" ],
+      "CorrectOptions": [ 3 ]
+    },
+    {
+      "Text": "The gate that outputs 1 only if all inputs are 1.",
+      "Options": [ "OR Gate", "AND Gate", "NOT Gate", "XOR Gate" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "The type of instruction set that allows instructions to perform multiple operations.",
+      "Options": [ "Reduced Instruction Set Computing (RISC)", "Complex Instruction Set Computing (CISC)", "Very Long Instruction Word (VLIW)", "Explicitly Parallel Instruction Computing (EPIC)" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "The component that stores the top memory address of the stack.",
+      "Options": [ "Instruction Register", "Memory Address Register", "Stack Pointer (SP)", "Program Counter" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "The type of circuit where the output depends on both current and past inputs.",
+      "Options": [ "Combinational Circuit", "Analog Circuit", "Sequential Circuit", "Digital Circuit" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "The type of data that represents numbers with fractional parts.",
+      "Options": [ "Floating-Point Data Type", "Character Data Type", "Integer Data Type", "String Data Type" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "The memory level with the largest capacity.",
+      "Options": [ "Register", "Cache Memory", "RAM", "Secondary Storage" ],
+      "CorrectOptions": [ 3 ]
+    },
+    {
+      "Text": "The process of changing the sequence of program execution.",
+      "Options": [ "Fetch", "Decode", "Execute", "Control Transfer" ],
+      "CorrectOptions": [ 3 ]
+    },
+    {
+      "Text": "The type of instruction that communicates with external devices.",
+      "Options": [ "Control Instructions", "Data Transfer Instructions", "Input/Output Instructions", "Logical Instructions" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "The component that synchronizes the operation of sequential circuits.",
+      "Options": [ "Data Bus", "Address Bus", "Clock Signals", "Control Unit" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "The type of gate that inverts the input.",
+      "Options": [ "OR Gate", "AND Gate", "NOT Gate", "XOR Gate" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "The type of memory that provides long-term storage for data and programs.",
+      "Options": [ "Register", "Cache Memory", "RAM", "Secondary Storage" ],
+      "CorrectOptions": [ 3 ]
+    },
+    {
+      "Text": "The type of instruction that performs arithmetic operations.",
+      "Options": [ "Control Instructions", "Data Transfer Instructions", "Input/Output Instructions", "Arithmetic and Logic Instructions" ],
+      "CorrectOptions": [ 3 ]
+    },
+    {
+      "Text": "The process of storing the result of an operation back to the appropriate location.",
+      "Options": [ "Fetch", "Decode", "Execute", "Write Back" ],
+      "CorrectOptions": [ 3 ]
+    },
+    {
+      "Text": "The method used to locate operands during instruction execution.",
+      "Options": [ "Addressing Modes", "Control Signals", "Bus Arbitration", "Data Transfer" ],
+      "CorrectOptions": [ 0 ]
+    }
+  ]
+}

@@ -120,9 +120,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="questions_comprog.json" />
-    <None Include="questions_granby.json" />
-    <None Include="questions_itf.json" />
+    <None Include="questions_comorg.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="questions_comprog.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="questions_granby.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="questions_itf.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="questions_nstp.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

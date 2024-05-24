@@ -84,6 +84,7 @@ namespace LearningQuiz
             this.metroButton5.TabIndex = 7;
             this.metroButton5.Text = "Computer Organization Arhictecture";
             this.metroButton5.UseSelectable = true;
+            this.metroButton5.Click += new System.EventHandler(this.metroButton5_Click);
             // 
             // quizOptions
             // 

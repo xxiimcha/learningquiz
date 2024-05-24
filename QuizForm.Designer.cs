@@ -1,109 +1,86 @@
-﻿
-namespace LearningQuiz
+﻿namespace LearningQuiz
 {
     partial class QuizForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.Label lblQuestion;
+        private MetroFramework.Controls.MetroButton btnOption1;
+        private MetroFramework.Controls.MetroButton btnOption2;
+        private MetroFramework.Controls.MetroButton btnOption3;
+        private MetroFramework.Controls.MetroButton btnOption4;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
-
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
-            this.metroButton2 = new MetroFramework.Controls.MetroButton();
-            this.metroButton3 = new MetroFramework.Controls.MetroButton();
-            this.metroButton4 = new MetroFramework.Controls.MetroButton();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.lblQuestion = new System.Windows.Forms.Label();
+            this.btnOption1 = new MetroFramework.Controls.MetroButton();
+            this.btnOption2 = new MetroFramework.Controls.MetroButton();
+            this.btnOption3 = new MetroFramework.Controls.MetroButton();
+            this.btnOption4 = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
-            // metroButton1
+            // lblQuestion
             // 
-            this.metroButton1.Location = new System.Drawing.Point(289, 134);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(154, 23);
-            this.metroButton1.TabIndex = 0;
-            this.metroButton1.Text = "metroButton1";
-            this.metroButton1.UseSelectable = true;
+            this.lblQuestion.AutoSize = false;
+            this.lblQuestion.Location = new System.Drawing.Point(23, 60);
+            this.lblQuestion.Name = "lblQuestion";
+            this.lblQuestion.Size = new System.Drawing.Size(350, 60); // Adjust height as needed
+            this.lblQuestion.TabIndex = 0;
+            this.lblQuestion.Text = "Question";
+            this.lblQuestion.MaximumSize = new System.Drawing.Size(350, 0);
+            this.lblQuestion.AutoSize = true;
+            this.lblQuestion.Font = new System.Drawing.Font("Segoe UI", 10F);
             // 
-            // metroButton2
+            // btnOption1
             // 
-            this.metroButton2.Location = new System.Drawing.Point(289, 175);
-            this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(154, 23);
-            this.metroButton2.TabIndex = 1;
-            this.metroButton2.Text = "metroButton2";
-            this.metroButton2.UseSelectable = true;
+            this.btnOption1.Location = new System.Drawing.Point(23, 130);
+            this.btnOption1.Name = "btnOption1";
+            this.btnOption1.Size = new System.Drawing.Size(350, 23);
+            this.btnOption1.TabIndex = 1;
+            this.btnOption1.Text = "Option 1";
+            this.btnOption1.UseSelectable = true;
+            this.btnOption1.Click += new System.EventHandler(this.btnOption_Click);
             // 
-            // metroButton3
+            // btnOption2
             // 
-            this.metroButton3.Location = new System.Drawing.Point(289, 218);
-            this.metroButton3.Name = "metroButton3";
-            this.metroButton3.Size = new System.Drawing.Size(154, 23);
-            this.metroButton3.TabIndex = 2;
-            this.metroButton3.Text = "metroButton3";
-            this.metroButton3.UseSelectable = true;
+            this.btnOption2.Location = new System.Drawing.Point(23, 170);
+            this.btnOption2.Name = "btnOption2";
+            this.btnOption2.Size = new System.Drawing.Size(350, 23);
+            this.btnOption2.TabIndex = 2;
+            this.btnOption2.Text = "Option 2";
+            this.btnOption2.UseSelectable = true;
+            this.btnOption2.Click += new System.EventHandler(this.btnOption_Click);
             // 
-            // metroButton4
+            // btnOption3
             // 
-            this.metroButton4.Location = new System.Drawing.Point(289, 260);
-            this.metroButton4.Name = "metroButton4";
-            this.metroButton4.Size = new System.Drawing.Size(154, 23);
-            this.metroButton4.TabIndex = 3;
-            this.metroButton4.Text = "metroButton4";
-            this.metroButton4.UseSelectable = true;
+            this.btnOption3.Location = new System.Drawing.Point(23, 210);
+            this.btnOption3.Name = "btnOption3";
+            this.btnOption3.Size = new System.Drawing.Size(350, 23);
+            this.btnOption3.TabIndex = 3;
+            this.btnOption3.Text = "Option 3";
+            this.btnOption3.UseSelectable = true;
+            this.btnOption3.Click += new System.EventHandler(this.btnOption_Click);
             // 
-            // metroLabel1
+            // btnOption4
             // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(235, 91);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(81, 19);
-            this.metroLabel1.TabIndex = 4;
-            this.metroLabel1.Text = "metroLabel1";
+            this.btnOption4.Location = new System.Drawing.Point(23, 250);
+            this.btnOption4.Name = "btnOption4";
+            this.btnOption4.Size = new System.Drawing.Size(350, 23);
+            this.btnOption4.TabIndex = 4;
+            this.btnOption4.Text = "Option 4";
+            this.btnOption4.UseSelectable = true;
+            this.btnOption4.Click += new System.EventHandler(this.btnOption_Click);
             // 
             // QuizForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(727, 386);
-            this.Controls.Add(this.metroLabel1);
-            this.Controls.Add(this.metroButton4);
-            this.Controls.Add(this.metroButton3);
-            this.Controls.Add(this.metroButton2);
-            this.Controls.Add(this.metroButton1);
+            this.ClientSize = new System.Drawing.Size(400, 300);
+            this.Controls.Add(this.lblQuestion);
+            this.Controls.Add(this.btnOption1);
+            this.Controls.Add(this.btnOption2);
+            this.Controls.Add(this.btnOption3);
+            this.Controls.Add(this.btnOption4);
             this.Name = "QuizForm";
-            this.Text = "QuizForm";
+            this.Text = "Quiz";
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
-
-        #endregion
-
-        private MetroFramework.Controls.MetroButton metroButton1;
-        private MetroFramework.Controls.MetroButton metroButton2;
-        private MetroFramework.Controls.MetroButton metroButton3;
-        private MetroFramework.Controls.MetroButton metroButton4;
-        private MetroFramework.Controls.MetroLabel metroLabel1;
     }
 }

@@ -47,5 +47,10 @@ namespace LearningQuiz
         {
             LoadQuiz("questions_itf.json");
         }
+
+        private void metroButton5_Click(object sender, EventArgs e)
+        {
+            LoadQuiz("questions_comorg.json");
+        }
     }
 }

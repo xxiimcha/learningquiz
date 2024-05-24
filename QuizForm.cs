@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework.Forms;
 
@@ -28,22 +22,26 @@ namespace LearningQuiz
             if (currentQuestionIndex < questions.Count)
             {
                 var question = questions[currentQuestionIndex];
-                metroLabel1.Text = question.Text;
-                metroButton1.Text = question.Options[0];
-                metroButton2.Text = question.Options[1];
-                metroButton3.Text = question.Options[2];
-                metroButton4.Text = question.Options[3];
+                lblQuestion.Text = question.Text;
+                btnOption1.Text = question.Options[0];
+                btnOption1.Tag = 0;
+                btnOption2.Text = question.Options[1];
+                btnOption2.Tag = 1;
+                btnOption3.Text = question.Options[2];
+                btnOption3.Tag = 2;
+                btnOption4.Text = question.Options[3];
+                btnOption4.Tag = 3;
             }
         }
 
         private void btnOption_Click(object sender, EventArgs e)
         {
-            Button button = sender as Button;
+            MetroFramework.Controls.MetroButton button = sender as MetroFramework.Controls.MetroButton;
             if (button == null)
                 return;
 
             var question = questions[currentQuestionIndex];
-            int selectedOptionIndex = int.Parse(button.Tag.ToString());
+            int selectedOptionIndex = (int)button.Tag;
 
             if (question.CorrectOptions.Contains(selectedOptionIndex))
             {
@@ -65,11 +63,5 @@ namespace LearningQuiz
                 this.Close(); // Close the form when quiz is completed
             }
         }
-
-        private MetroFramework.Controls.MetroLabel lblQuestion;
-        private MetroFramework.Controls.MetroButton btnOption1;
-        private MetroFramework.Controls.MetroButton btnOption2;
-        private MetroFramework.Controls.MetroButton btnOption3;
-        private MetroFramework.Controls.MetroButton btnOption4;
     }
 }

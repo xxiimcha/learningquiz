@@ -1,0 +1,155 @@
+{
+  "Name": "IT Fundamentals",
+  "Questions": [
+    {
+      "Text": "What does \"Computer\" mean?",
+      "Options": [ "Calculation", "Storage", "Processing", "Input" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Ancestor of modern digital calculators?",
+      "Options": [ "Abacus", "Slide rule", "Pascaline", "Analytical Engine" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Generation with vacuum tubes?",
+      "Options": [ "First", "Second", "Third", "Fourth" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Replacement for vacuum tubes?",
+      "Options": [ "Transistors", "Integrated circuits", "Microprocessors", "Quantum chips" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Key feature of third-generation computers?",
+      "Options": [ "Speed", "Size", "Cost", "Reliability" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Common home computer uses?",
+      "Options": [ "Gaming, work", "Work, education", "Payment, gaming", "Communication, storage" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "Programming languages in second-generation computers?",
+      "Options": [ "Assembly, machine", "Java, Python", "FORTRAN, COBOL", "C++, C" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "Features of third-generation computers?",
+      "Options": [ "Integrated circuits, smaller size", "Microprocessors, high speed", "Vacuum tubes, large size", "Transistors, moderate speed" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Sectors where computers maintain records?",
+      "Options": [ "Education, healthcare", "Medical, business", "Finance, marketing", "Entertainment, travel" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "Uses of computers in science?",
+      "Options": [ "Storage, networking", "Input, output", "Analysis, simulations", "Monitoring, security" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "Designer of the Analytical Engine?",
+      "Options": [ "Charles Babbage", "Blaise Pascal", "Gottfried Wilhelm von Leibniz", "Dorr Eugene Felt" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Purpose of the Analytical Engine?",
+      "Options": [ "Basic arithmetic", "Complex calculations", "Data storage", "Networking" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "Inventor of the Arithmometer?",
+      "Options": [ "Charles Xavier Thomas de Colmar", "Blaise Pascal", "Charles Babbage", "Douglas Engelbart" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Purpose of Pascal’s Calculator?",
+      "Options": [ "Basic arithmetic", "Complex calculations", "Data storage", "Networking" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Function of the Difference Engine?",
+      "Options": [ "Storage", "Computing sets", "Basic arithmetic", "Networking" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "Designer of the Step Reckoner?",
+      "Options": [ "Blaise Pascal", "Charles Babbage", "Gottfried Wilhelm von Leibniz", "Dorr Eugene Felt" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "Inventor of the Comptometer and Comptograph?",
+      "Options": [ "Charles Xavier Thomas de Colmar", "Douglas Engelbart", "Dorr Eugene Felt", "Konrad Zuse" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "Function of the Millionaire mechanical calculator?",
+      "Options": [ "Addition", "Subtraction", "Multiplication", "Division" ],
+      "CorrectOptions": [ 2 ]
+    },
+    {
+      "Text": "Inventor of the Arithmometer?",
+      "Options": [ "Charles Xavier Thomas de Colmar", "Blaise Pascal", "Charles Babbage", "Douglas Engelbart" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Technology replacing transistors in third-generation computers?",
+      "Options": [ "Integrated circuits", "Microprocessors", "Quantum chips", "Vacuum tubes" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "First successful commercial mechanical calculator?",
+      "Options": [ "Arithmometer", "Pascaline", "Analytical Engine", "Step Reckoner" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Function of the Comptograph?",
+      "Options": [ "Printing adding machine", "Calculating machine", "Data storage", "Data processing" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Inventor of the Difference Engine?",
+      "Options": [ "Charles Babbage", "Blaise Pascal", "Gottfried Wilhelm von Leibniz", "Dorr Eugene Felt" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Function of the Abacus?",
+      "Options": [ "Arithmetic calculations", "Data storage", "Data processing", "Basic arithmetic" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Designer of the Pascaline?",
+      "Options": [ "Blaise Pascal", "Charles Babbage", "Gottfried Wilhelm von Leibniz", "Dorr Eugene Felt" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "First computer to use integrated circuits?",
+      "Options": [ "IBM 360", "ENIAC", "UNIVAC", "EDSAC" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Function of the Analytical Engine?",
+      "Options": [ "Complex calculations", "Basic arithmetic", "Data storage", "Networking" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Inventor of the first computer mouse?",
+      "Options": [ "Douglas Engelbart", "Steve Jobs", "Bill Gates", "Konrad Zuse" ],
+      "CorrectOptions": [ 0 ]
+    },
+    {
+      "Text": "Function of the Step Reckoner?",
+      "Options": [ "Addition and subtraction", "Multiplication and division", "Data storage", "Networking" ],
+      "CorrectOptions": [ 1 ]
+    },
+    {
+      "Text": "Inventor of the first programmable computer?",
+      "Options": [ "Konrad Zuse", "Alan Turing", "John von Neumann", "Steve Jobs" ],
+      "CorrectOptions": [ 0 ]
+    }
+  ]
+}

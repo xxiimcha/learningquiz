@@ -64,6 +64,7 @@ namespace LearningQuiz
             this.metroButton3.TabIndex = 5;
             this.metroButton3.Text = "IT Fundamentals";
             this.metroButton3.UseSelectable = true;
+            this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
             // 
             // metroButton4
             // 
@@ -73,6 +74,7 @@ namespace LearningQuiz
             this.metroButton4.TabIndex = 6;
             this.metroButton4.Text = "Granby Values";
             this.metroButton4.UseSelectable = true;
+            this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click);
             // 
             // metroButton5
             // 

@@ -13,17 +13,6 @@ namespace LearningQuiz
             InitializeComponent();
         }
 
-        private void comprog_Click(object sender, EventArgs e)
-        {
-            LoadQuiz("questions_comprog.json");
-        }
-
-
-        private void itf_Click(object sender, EventArgs e)
-        {
-            LoadQuiz("questions_itf.json");
-        }
-
         private void LoadQuiz(string filePath)
         {
             try
@@ -47,6 +36,16 @@ namespace LearningQuiz
         private void comprog_Click_1(object sender, EventArgs e)
         {
             LoadQuiz("questions_comprog.json");
+        }
+
+        private void metroButton4_Click(object sender, EventArgs e)
+        {
+            LoadQuiz("questions_granby.json");
+        }
+
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
+            LoadQuiz("questions_itf.json");
         }
     }
 }

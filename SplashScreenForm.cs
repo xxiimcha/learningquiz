@@ -18,14 +18,14 @@ namespace LearningQuiz
         private void InitializeTimer()
         {
             timer = new Timer();
-            timer.Interval = 100; // Update every 100 milliseconds
+            timer.Interval = 50; // Update every 50 milliseconds for faster loading
             timer.Tick += new EventHandler(Timer_Tick);
             timer.Start();
         }
 
         private void Timer_Tick(object sender, EventArgs e)
         {
-            progressValue += 1; // Increment progress value
+            progressValue += 2; // Increment progress value by 2 for faster progress
             if (progressValue <= 100)
             {
                 metroProgressBar1.Value = progressValue;

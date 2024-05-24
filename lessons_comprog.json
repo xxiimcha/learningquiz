@@ -1,0 +1,29 @@
+{
+  "Name": "Computer Programming 3",
+  "Lessons": [
+    {
+      "Title": "Introduction to Programming",
+      "Topics": [
+        "What is Programming?",
+        "History of Programming Languages",
+        "Basic Programming Concepts"
+      ]
+    },
+    {
+      "Title": "Data Structures",
+      "Topics": [
+        "Arrays",
+        "Linked Lists",
+        "Stacks and Queues"
+      ]
+    },
+    {
+      "Title": "Object-Oriented Programming",
+      "Topics": [
+        "Classes and Objects",
+        "Inheritance",
+        "Polymorphism"
+      ]
+    }
+  ]
+}

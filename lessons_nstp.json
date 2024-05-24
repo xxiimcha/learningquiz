@@ -1,0 +1,128 @@
+{
+  "Name": "NSTP",
+  "Lessons": [
+    {
+      "Title": "Heat Exhaustion and Heat Stroke",
+      "Topics": [
+        {
+          "Title": "Causes of Heat Exhaustion",
+          "Content": "Heat exhaustion is caused by high temperatures and humidity."
+        },
+        {
+          "Title": "Signs of Heat Stroke",
+          "Content": "If someone shows signs of heat stroke, you should provide emergency treatment immediately."
+        },
+        {
+          "Title": "Symptoms of Heat Exhaustion",
+          "Content": "The symptoms of heat exhaustion include heavy sweating, dizziness, and fatigue."
+        },
+        {
+          "Title": "First Aid for Heat Stroke",
+          "Content": "First aid steps for heat stroke include calling 911 and cooling down the person."
+        }
+      ]
+    },
+    {
+      "Title": "Fire Safety",
+      "Topics": [
+        {
+          "Title": "Common Causes of Fires",
+          "Content": "Common causes of fires include smoking materials and electrical fires."
+        },
+        {
+          "Title": "Overloaded Electrical Outlets",
+          "Content": "Overloaded electrical outlets can lead to fires due to overloaded circuits."
+        },
+        {
+          "Title": "Fire Safety for Space Heaters",
+          "Content": "A fire safety measure for space heaters is to not leave them unattended."
+        },
+        {
+          "Title": "Storage of Flammable Liquids",
+          "Content": "Flammable liquids should be stored properly to prevent combustion."
+        },
+        {
+          "Title": "Reporting Fire Hazards",
+          "Content": "If you observe a fire hazard, you should report it to a supervisor."
+        },
+        {
+          "Title": "Housekeeping for Fire Prevention",
+          "Content": "Housekeeping is important for fire prevention to keep exits clear."
+        },
+        {
+          "Title": "Keeping Sprinkler Heads Clear",
+          "Content": "Sprinkler heads should be kept clear with an 18-inch space around them."
+        },
+        {
+          "Title": "Proper Waste Material Disposal",
+          "Content": "Waste materials should never be piled in corridors or stairwells."
+        },
+        {
+          "Title": "When to Close Fire Doors",
+          "Content": "Fire doors should always be closed to prevent the spread of fire."
+        },
+        {
+          "Title": "Avoiding Multi-Outlet Taps",
+          "Content": "Multi-outlet taps should be avoided to prevent overloaded circuits."
+        },
+        {
+          "Title": "Safe Alternative to Extension Cords",
+          "Content": "A safe alternative to extension cords is to use a surge protector."
+        },
+        {
+          "Title": "Regular Checks on Electrical Equipment",
+          "Content": "You should regularly inspect wiring on electrical equipment."
+        },
+        {
+          "Title": "Precautions for Using Electrical Appliances",
+          "Content": "A precaution for using electrical appliances is to unplug them after use."
+        }
+      ]
+    },
+    {
+      "Title": "Fire Detection and Evacuation",
+      "Topics": [
+        {
+          "Title": "Function of Smoke Detectors",
+          "Content": "The function of a smoke detector is to detect smoke."
+        },
+        {
+          "Title": "How Heat Detectors Work",
+          "Content": "Heat detectors work by sensing high temperatures."
+        },
+        {
+          "Title": "Triggering Sprinklers",
+          "Content": "Sprinklers are triggered by heat activation in case of fire."
+        },
+        {
+          "Title": "Planning Evacuation Routes",
+          "Content": "It is important to plan two evacuation routes for alternate exits."
+        },
+        {
+          "Title": "Avoiding Elevators During a Fire",
+          "Content": "You should avoid elevators during a fire because of the risk of power loss."
+        },
+        {
+          "Title": "Location of Fire Alarm Pull Stations",
+          "Content": "Fire alarm pull stations are usually located by exits."
+        },
+        {
+          "Title": "Using a Fire Extinguisher",
+          "Content": "Before using a fire extinguisher, you should identify a safe path."
+        },
+        {
+          "Title": "P.A.S.S. Technique",
+          "Content": "The P in P.A.S.S. stands for Pull pin, A stands for Aim low, S stands for Squeeze handle, and the second S stands for Sweep base."
+        },
+        {
+          "Title": "Re-Ignition of Fire",
+          "Content": "If the fire re-ignites after using an extinguisher, you should repeat the steps."
+        },
+        {
+          "Title": "When to Evacuate Immediately",
+          "Content": "You should evacuate immediately during a fire if there is any doubt about your safety."
+        }
+      ]
+    }
+  ]
+}

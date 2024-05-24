@@ -41,6 +41,7 @@ namespace LearningQuiz
             this.study.TabIndex = 2;
             this.study.Text = "Study";
             this.study.UseSelectable = true;
+            this.study.Click += new System.EventHandler(this.study_Click);
             // 
             // quiz
             // 
@@ -48,7 +49,7 @@ namespace LearningQuiz
             this.quiz.Name = "quiz";
             this.quiz.Size = new System.Drawing.Size(138, 49);
             this.quiz.TabIndex = 3;
-            this.quiz.Text = "Taks A Quiz";
+            this.quiz.Text = "Take A Quiz";
             this.quiz.UseSelectable = true;
             this.quiz.Click += new System.EventHandler(this.quiz_Click);
             // 

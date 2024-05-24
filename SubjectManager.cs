@@ -7,25 +7,26 @@ namespace LearningQuiz
 {
     public class SubjectManager
     {
-        private Subject subject;
+        private List<Lesson> lessons;
 
-        public SubjectManager(string filePath)
+        public SubjectManager(string lessonsFilePath) // Corrected the parameter name here
         {
-            LoadSubject(filePath);
+            LoadLessons(lessonsFilePath);
         }
 
-        private void LoadSubject(string filePath)
+        private void LoadLessons(string filePath)
         {
             if (!File.Exists(filePath))
                 throw new FileNotFoundException("The specified file was not found.", filePath);
 
             string json = File.ReadAllText(filePath);
-            subject = JsonConvert.DeserializeObject<Subject>(json);
+            var subject = JsonConvert.DeserializeObject<Subject>(json);
+            lessons = subject.Lessons;
         }
 
         public List<Lesson> GetLessons()
         {
-            return subject.Lessons;
+            return lessons;
         }
     }
 
@@ -33,19 +34,5 @@ namespace LearningQuiz
     {
         public string Name { get; set; }
         public List<Lesson> Lessons { get; set; }
-        public List<Question> Questions { get; set; }
-    }
-
-    public class Lesson
-    {
-        public string Title { get; set; }
-        public List<string> Topics { get; set; }
-    }
-
-    public class Question
-    {
-        public string Text { get; set; }
-        public List<string> Options { get; set; }
-        public List<int> CorrectOptions { get; set; }
     }
 }

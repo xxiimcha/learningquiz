@@ -1,0 +1,108 @@
+{
+  "Name": "Computer Organization and Architecture",
+  "Lessons": [
+    {
+      "Title": "Instruction Set Architecture (ISA)",
+      "Topics": [
+        {
+          "Title": "Types of Instructions",
+          "Content": "Data Transfer: Move data between memory and registers. Arithmetic and Logic: Perform arithmetic (add, subtract, multiply, divide) and logical operations (AND, OR, NOT, etc.). Control Transfer: Change the sequence of program execution (e.g., branches, jumps, calls, returns). Input/Output: Communicate with external devices."
+        },
+        {
+          "Title": "Instruction Formats",
+          "Content": "Fixed-Length: Instructions are of fixed length, simplifying instruction fetch and decode. Variable-Length: Instructions can vary in length, allowing for more compact code but requiring more complex decoding logic."
+        },
+        {
+          "Title": "Addressing Modes",
+          "Content": "Immediate: Operand value is specified in the instruction itself. Direct: Operand is located at a specific memory address. Register: Operand is located in a register. Indirect: Operand address is stored in a register or memory location."
+        },
+        {
+          "Title": "Registers",
+          "Content": "General-Purpose Registers: Used for storing data and intermediate results. Special-Purpose Registers: Used for specific purposes, such as the program counter (PC), stack pointer (SP), and status flags."
+        },
+        {
+          "Title": "Data Types",
+          "Content": "Integer: Whole numbers. Floating-Point: Numbers with fractional parts. Character: Single characters. Boolean: True or false values."
+        },
+        {
+          "Title": "Instruction Set Design",
+          "Content": "Complex Instruction Set Computing (CISC): Instructions can perform multiple operations, often with variable lengths. Reduced Instruction Set Computing (RISC): Instructions are simple and perform only one operation each, with a focus on optimizing execution speed."
+        },
+        {
+          "Title": "Instruction Execution",
+          "Content": "Fetch: Retrieve the next instruction from memory. Decode: Interpret the instruction to determine the operation to be performed. Execute: Perform the operation specified by the instruction. Write Back: Store the result back to the appropriate location (register or memory)."
+        }
+      ]
+    },
+    {
+      "Title": "Digital Logic",
+      "Topics": [
+        {
+          "Title": "Binary Number System",
+          "Content": "Computers use the binary number system, which consists of only two digits, 0 and 1. In binary, each digit is called a bit (binary digit), and groups of bits form binary numbers."
+        },
+        {
+          "Title": "Logic Gates",
+          "Content": "Logic gates are the basic building blocks of digital circuits. They perform logical operations (AND, OR, NOT, etc.) on one or more binary inputs to produce a single binary output."
+        },
+        {
+          "Title": "Boolean Algebra",
+          "Content": "Boolean algebra is a mathematical system used to analyze and simplify digital logic circuits. It consists of operators such as AND, OR, and NOT, along with rules and theorems for manipulating logical expressions."
+        },
+        {
+          "Title": "Combinational Circuits",
+          "Content": "Combinational circuits are digital circuits where the output depends only on the current input values. They do not have any internal state or memory."
+        },
+        {
+          "Title": "Sequential Circuits",
+          "Content": "Sequential circuits have memory elements (flip-flops) that allow them to store state information. The output of a sequential circuit depends not only on the current input but also on the past history of inputs."
+        },
+        {
+          "Title": "Flip-Flops",
+          "Content": "Flip-flops are the simplest form of memory in digital circuits. They can store a single bit of information (0 or 1) and are used to store state information in sequential circuits."
+        },
+        {
+          "Title": "Registers",
+          "Content": "Registers are groups of flip-flops used to store binary information temporarily in a computer's CPU. They are used for various purposes, such as holding data operands, storing addresses, and storing intermediate results during computation."
+        },
+        {
+          "Title": "Clock Signals",
+          "Content": "Clock signals are used to synchronize the operation of sequential circuits. They ensure that data is stable and valid before it is processed and that outputs change only at specific times."
+        }
+      ]
+    },
+    {
+      "Title": "Memory Hierarchy",
+      "Topics": [
+        {
+          "Title": "Registers",
+          "Content": "Registers are the fastest and smallest type of memory in a computer. They are used to store data that is being actively used by the CPU, including operands, intermediate results, and memory addresses."
+        },
+        {
+          "Title": "Cache Memory",
+          "Content": "Cache memory is a small, high-speed memory located between the CPU and main memory. It stores copies of frequently accessed data and instructions to reduce the time taken to access them from main memory."
+        },
+        {
+          "Title": "Main Memory (RAM)",
+          "Content": "Main memory is the primary volatile memory in a computer system. It stores data and instructions that are actively being used by programs. Main memory is larger than cache memory but slower to access."
+        },
+        {
+          "Title": "Secondary Storage",
+          "Content": "Secondary storage includes devices like hard disk drives (HDDs) and solid-state drives (SSDs). It provides long-term storage for data and programs that are not actively being used. Secondary storage is slower than main memory but offers much larger storage capacities."
+        },
+        {
+          "Title": "Virtual Memory",
+          "Content": "Virtual memory is a memory management technique that uses a portion of the hard disk to simulate additional RAM. It allows the computer to run programs that require more memory than is physically available."
+        },
+        {
+          "Title": "Memory Access Time",
+          "Content": "Memory access time refers to the time taken to read or write data from/to a memory location. As we move up the memory hierarchy (from registers to cache to main memory to secondary storage), access times increase, while storage capacities increase."
+        },
+        {
+          "Title": "Cache Hierarchy",
+          "Content": "Modern computers typically have multiple levels of cache (L1, L2, L3), each with different sizes and access speeds. The cache hierarchy helps bridge the speed gap between the CPU and main memory, reducing the average time to access data."
+        }
+      ]
+    }
+  ]
+}

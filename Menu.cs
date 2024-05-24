@@ -24,5 +24,12 @@ namespace LearningQuiz
             quizOptions quizMenu = new quizOptions();
             quizMenu.Show();
         }
+
+        private void study_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LessonsOption lessons = new LessonsOption();
+            lessons.Show();
+        }
     }
 }

@@ -62,6 +62,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DefinitionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DefinitionForm.Designer.cs">
+      <DependentUpon>DefinitionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lesson.cs" />
+    <Compile Include="LessonsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LessonsForm.Designer.cs">
+      <DependentUpon>LessonsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lessonsOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lessonsOptions.Designer.cs">
+      <DependentUpon>lessonsOptions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +108,7 @@
     <Compile Include="SplashScreenForm.Designer.cs">
       <DependentUpon>SplashScreenForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SubjectManager.cs" />
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,6 +130,15 @@
     <EmbeddedResource Include="SplashScreenForm.resx">
       <DependentUpon>SplashScreenForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="lessons_comorg.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="lessons_comprog.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="lessons_nstp.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

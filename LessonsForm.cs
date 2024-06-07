@@ -14,7 +14,28 @@ namespace LearningQuiz
         {
             InitializeComponent();
             this.lessons = lessons;
+            InitializeBackButton();
             DisplayLessons();
+        }
+
+        private void InitializeBackButton()
+        {
+            var backButton = new MetroFramework.Controls.MetroButton
+            {
+                Text = "Back",
+                Font = new Font("Segoe UI", 10F, FontStyle.Bold),
+                AutoSize = true,
+                Margin = new Padding(10),
+                Dock = DockStyle.Top
+            };
+            backButton.Click += BackButton_Click;
+
+            this.Controls.Add(backButton);
+        }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            this.Close(); // Close the LessonsForm to return to the previous form
         }
 
         private void DisplayLessons()

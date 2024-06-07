@@ -15,19 +15,19 @@
             this.btnOption2 = new MetroFramework.Controls.MetroButton();
             this.btnOption3 = new MetroFramework.Controls.MetroButton();
             this.btnOption4 = new MetroFramework.Controls.MetroButton();
+            this.lblTimer = new MetroFramework.Controls.MetroLabel();
             this.SuspendLayout();
             // 
             // lblQuestion
             // 
-            this.lblQuestion.AutoSize = false;
-            this.lblQuestion.Location = new System.Drawing.Point(23, 60);
-            this.lblQuestion.Name = "lblQuestion";
-            this.lblQuestion.Size = new System.Drawing.Size(350, 60); // Adjust height as needed
-            this.lblQuestion.TabIndex = 0;
-            this.lblQuestion.Text = "Question";
-            this.lblQuestion.MaximumSize = new System.Drawing.Size(350, 0);
             this.lblQuestion.AutoSize = true;
             this.lblQuestion.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.lblQuestion.Location = new System.Drawing.Point(23, 60);
+            this.lblQuestion.MaximumSize = new System.Drawing.Size(350, 0);
+            this.lblQuestion.Name = "lblQuestion";
+            this.lblQuestion.Size = new System.Drawing.Size(65, 19);
+            this.lblQuestion.TabIndex = 0;
+            this.lblQuestion.Text = "Question";
             // 
             // btnOption1
             // 
@@ -69,9 +69,19 @@
             this.btnOption4.UseSelectable = true;
             this.btnOption4.Click += new System.EventHandler(this.btnOption_Click);
             // 
+            // lblTimer
+            // 
+            this.lblTimer.AutoSize = true;
+            this.lblTimer.Location = new System.Drawing.Point(279, 37);
+            this.lblTimer.Name = "lblTimer";
+            this.lblTimer.Size = new System.Drawing.Size(81, 19);
+            this.lblTimer.TabIndex = 5;
+            this.lblTimer.Text = "metroLabel1";
+            // 
             // QuizForm
             // 
             this.ClientSize = new System.Drawing.Size(400, 300);
+            this.Controls.Add(this.lblTimer);
             this.Controls.Add(this.lblQuestion);
             this.Controls.Add(this.btnOption1);
             this.Controls.Add(this.btnOption2);
@@ -81,6 +91,9 @@
             this.Text = "Quiz";
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
+
+        private MetroFramework.Controls.MetroLabel lblTimer;
     }
 }
